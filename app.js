@@ -74,22 +74,37 @@ if (hasTTS) { loadVoices(); speechSynthesis.onvoiceschanged = loadVoices; }
 function voice() {
   return voices.find(v => v.name === S.settings.voice) || voices.find(v => /en[-_]US/i.test(v.lang)) || voices[0] || null;
 }
-function stopAudio() { if (hasTTS) speechSynthesis.cancel(); }
+let speakTok = 0, lastCancel = 0, curUtt = null;
+function stopAudio() { speakTok++; if (hasTTS) { speechSynthesis.cancel(); lastCancel = Date.now(); } }
 function speak(text, rate) {
   return new Promise(res => {
     if (!hasTTS) return res();
-    speechSynthesis.cancel();
-    const u = new SpeechSynthesisUtterance(clean(text));
-    const v = voice();
-    if (v) u.voice = v;
-    u.lang = v ? v.lang : 'en-US';
-    u.rate = rate || S.settings.rate || 1;
-    let fin = false;
-    const end = () => { if (!fin) { fin = true; res(); } };
-    u.onend = end; u.onerror = end;
-    setTimeout(end, 2000 + text.length * 130 / u.rate);
-    speechSynthesis.speak(u);
+    const tok = ++speakTok;
+    // Chrome drops an utterance that is queued straight after cancel(), so cancel first and start a moment later.
+    if (speechSynthesis.speaking || speechSynthesis.pending) { speechSynthesis.cancel(); lastCancel = Date.now(); }
+    const wait = Math.max(0, 120 - (Date.now() - lastCancel));
+    setTimeout(() => {
+      if (tok !== speakTok) return res();
+      if (!voices.length) loadVoices();
+      const u = curUtt = new SpeechSynthesisUtterance(clean(text)); // keep a reference so it is not garbage-collected mid-speech
+      const v = voice();
+      if (v) { u.voice = v; u.lang = v.lang; } else u.lang = 'en-US';
+      u.rate = rate || S.settings.rate || 1;
+      let fin = false;
+      const end = () => { if (!fin) { fin = true; res(); } };
+      u.onend = end;
+      u.onerror = e => { if (e.error !== 'interrupted' && e.error !== 'canceled') ttsProblem(e.error); end(); };
+      setTimeout(end, 2000 + text.length * 130 / u.rate);
+      speechSynthesis.resume();
+      speechSynthesis.speak(u);
+    }, wait);
   });
+}
+function ttsProblem(why) {
+  if ($('#ttswarn')) return;
+  document.body.append(h('div', { id: 'ttswarn', class: 'note', onclick: e => e.currentTarget.remove() },
+    'Ijwi ntirikunze kuri iyi telefoni. Reba ko ijwi rya telefoni rifunguye, hanyuma ujye kuri Aho ugeze → Ijwi uhitemo irindi jwi.',
+    h('br'), h('small', {}, 'The voice did not play (' + why + '). Check the volume, then pick another voice under Progress → Voice.')));
 }
 const playBtns = text => h('div', { class: 'row' },
   h('button', { class: 'btn sec', onclick: () => speak(text) }, '🔊 Umva'),
@@ -483,7 +498,9 @@ function progress() {
     h('div', { class: 'box' }, mis.length ? h('table', {}, mis.map(([en, m]) => h('tr', {}, h('td', {}, en, h('br'), h('small', {}, m.rw)), h('td', {}, '×' + m.n),
       h('td', {}, h('button', { class: 'x', onclick: () => { delete S.mistakes[en]; save(); go('progress'); } }, '🗑'))))) : 'Nta makosa arandikwa.',
       h('p', {}), mi, h('button', { class: 'btn sec', onclick: () => { if (mi.value.trim()) { mistake(mi.value.trim(), ''); go('progress'); } } }, '+ Ongeraho')),
-    h('h2', {}, ...two('Ijwi', 'Voice')), h('div', { class: 'box' }, vsel, h('p', {}), rsel),
+    h('h2', {}, ...two('Ijwi', 'Voice')), h('div', { class: 'box' }, vsel, h('p', {}), rsel,
+      h('button', { class: 'btn sec', onclick: () => speak('Hello, how are you?') }, '🔊 Gerageza ijwi (Test)'),
+      !voices.length && h('div', { class: 'note' }, 'Nta jwi ry\'Icyongereza riri kuri iyi telefoni.', h('br'), h('small', {}, 'This device reports no English voice. On Android: Settings → Accessibility → Text-to-speech, install "Speech Services by Google" and English voice data. On a computer, use Chrome or Edge.'))),
     h('h2', {}, ...two('Kubika', 'Backup')),
     h('button', { class: 'btn sec', onclick: () => {
       const a = h('a', { href: URL.createObjectURL(new Blob([JSON.stringify(S)], { type: 'application/json' })), download: 'icyongereza-' + today() + '.json' });
