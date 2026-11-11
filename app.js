@@ -100,8 +100,10 @@ function speak(text, rate) {
     }, wait);
   });
 }
+let ttsWarned = false;
 function ttsProblem(why) {
-  if ($('#ttswarn')) return;
+  if (ttsWarned) return; ttsWarned = true; // once per visit, and it goes away by itself
+  setTimeout(() => { const w = $('#ttswarn'); if (w) w.remove(); }, 9000);
   document.body.append(h('div', { id: 'ttswarn', class: 'note', onclick: e => e.currentTarget.remove() },
     'Ijwi ntirikunze kuri iyi telefoni. Reba ko ijwi rya telefoni rifunguye, hanyuma ujye kuri Aho ugeze → Ijwi uhitemo irindi jwi.',
     h('br'), h('small', {}, 'The voice did not play (' + why + '). Check the volume, then pick another voice under Progress → Voice.')));
