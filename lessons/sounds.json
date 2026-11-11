@@ -1,0 +1,56 @@
+{
+ "endings": {
+  "title": {"en": "Word endings", "rw": "Impera z'amagambo"},
+  "explain_rw": "Mu Kinyarwanda, amagambo arangira n'inyajwi. Mu Cyongereza, amagambo menshi arangira n'ingombajwi. Ntukongereho inyajwi ku mpera: vuga \"gud\", ntuvuge \"gudi\".",
+  "mouth_rw": "Vuga ingombajwi ya nyuma, hanyuma uhite uceceka. Funga umunwa cyangwa uhagarike ururimi.",
+  "repeat": [["good", "GUD", "gudi"], ["name", "NEIM", "neimu"], ["nice", "NAIS", "naisi"], ["meet", "MIIT", "miiti"], ["book", "BUK", "buku"], ["bed", "BED", "bedi"]]
+ },
+ "rl": {
+  "title": {"en": "R and L", "rw": "R na L"},
+  "explain_rw": "Mu Kinyarwanda R na L byenda kumvikana kimwe. Mu Cyongereza ni amajwi abiri atandukanye, kandi ahindura igisobanuro: \"rice\" ni umuceri, \"lice\" ni inda zo mu mutwe.",
+  "mouth_rw": "L: isonga ry'ururimi rikora inyuma y'amenyo yo hejuru. R: ururimi ntirukora ahantu na hamwe; rusubire inyuma gato, iminwa yegerane.",
+  "repeat": [["right", "RAIT", ""], ["light", "LAIT", ""], ["rice", "RAIS", ""], ["really", "RII-li", ""], ["hello", "ha-LO", ""], ["Rwanda", "ru-AN-da", ""]]
+ },
+ "ship-sheep": {
+  "title": {"en": "Short i and long ee", "rw": "i ngufi na ii ndende"},
+  "explain_rw": "Ikinyarwanda gifite \"i\" imwe. Icyongereza gifite ebyiri: ingufi (ship = ubwato) n'indende (sheep = intama). Iyo uzivanze, ijambo rirahinduka.",
+  "mouth_rw": "\"sheep\": kurura ijwi, iii, umeze nk'useka. \"ship\": ijwi ni rigufi, umunwa uraruhutse.",
+  "repeat": [["ship", "SHIP", ""], ["sheep", "SHIIP", ""], ["this", "DHIS", ""], ["these", "DHIIZ", ""], ["live", "LIV", ""], ["leave", "LIIV", ""]]
+ },
+ "th": {
+  "title": {"en": "The TH sounds", "rw": "Amajwi ya TH"},
+  "explain_rw": "Ijwi TH ntiriba mu Kinyarwanda. \"think\" si \"sink\" kandi si \"tink\". Hari TH ebyiri: iyoroheje (think, three) n'ifite ijwi (this, that). Iya kabiri tuyandika DH.",
+  "mouth_rw": "Shyira isonga ry'ururimi hagati y'amenyo yo hejuru n'ayo hasi, hanyuma uhuhe umwuka. Reba mu ndorerwamo: ururimi rugomba kugaragara.",
+  "repeat": [["think", "THINK", "sink"], ["three", "THRII", "tree"], ["thank you", "THANK yu", "sank yu"], ["this", "DHIS", "dis"], ["that", "DHAT", "dat"], ["mother", "MA-dher", "ma-za"]]
+ },
+ "cat-cut": {
+  "title": {"en": "cat and cut", "rw": "cat na cut"},
+  "explain_rw": "Mu Cyongereza hari amajwi abiri asa na \"a\" y'Ikinyarwanda. \"cat\" (injangwe) na \"cut\" (gukata) ni amagambo abiri atandukanye.",
+  "mouth_rw": "\"cat\": fungura umunwa cyane, uwurambure ku mpande. \"cut\": umunwa ufunguye gake, ijwi rigufi rivuye mu muhogo.",
+  "repeat": [["cat", "KAT", ""], ["cut", "KAT (ngufi)", ""], ["bag", "BAG", ""], ["bus", "BAS", ""], ["thank", "THANK", ""], ["much", "MAC", ""]]
+ },
+ "clusters": {
+  "title": {"en": "Consonants together", "rw": "Ingombajwi zikurikiranye"},
+  "explain_rw": "Mu Cyongereza ingombajwi ebyiri cyangwa eshatu zishobora gukurikirana nta nyajwi iri hagati: street, small, play. Ntushyiremo inyajwi: vuga \"sliip\", ntuvuge \"siliipu\".",
+  "mouth_rw": "Banza uvuge ingombajwi buhoro: s-l-iip. Hanyuma wihute kugeza zifatanye.",
+  "repeat": [["sleep", "SLIIP", "siliipu"], ["small", "SMOL", "simolu"], ["street", "STRIIT", "sitiriti"], ["shop", "SHAP", "shopu"], ["next", "NEKST", "nekisiti"], ["asked", "ASKT", "asikidi"]]
+ },
+ "stress": {
+  "title": {"en": "Strong and weak syllables", "rw": "Umugemo ukomeye n'uworoshye"},
+  "explain_rw": "Mu Cyongereza, buri jambo rigira umugemo umwe uvugwa cyane kandi utinze. Indi migemo iroroha. thirTEEN (13) na THIRty (30) bitandukanywa n'aho ushyira imbaraga. Mu nyandiko y'amajwi, umugemo ukomeye wanditse mu NYUGUTI NKURU.",
+  "mouth_rw": "Koma mu mashyi ku mugemo ukomeye: ba-NA-na. Indi migemo uyivuge vuba kandi mu ijwi rito.",
+  "repeat": [["thirteen", "ther-TIIN", ""], ["thirty", "THER-ti", ""], ["banana", "ba-NA-na", ""], ["customer", "KAS-ta-mer", ""], ["tomorrow", "tu-MA-ro", ""], ["expensive", "ik-SPEN-siv", ""]]
+ },
+ "full-fool": {
+  "title": {"en": "Short u and long oo", "rw": "u ngufi na uu ndende"},
+  "explain_rw": "Icyongereza gifite \"u\" ebyiri: ingufi (full = cyuzuye) n'indende (fool = igicucu). Ni amagambo atandukanye.",
+  "mouth_rw": "\"fool\": iminwa isohoke imbere, ukurure ijwi: uuu. \"full\": iminwa iruhutse, ijwi rigufi.",
+  "repeat": [["full", "FUL", ""], ["fool", "FUUL", ""], ["look", "LUK", ""], ["good", "GUD", ""], ["blue", "BLUU", ""], ["two", "TUU", ""]]
+ },
+ "he-she": {
+  "title": {"en": "he and she", "rw": "he na she"},
+  "explain_rw": "HE (umugabo) na SHE (umugore) biratandukanye mu Cyongereza. Wumve neza itangiriro ry'ijambo: \"h\" cyangwa \"sh\".",
+  "mouth_rw": "\"he\": umwuka gusa uvuye mu muhogo, hhh. \"she\": iminwa isohoke imbere, shhh, nk'ucecekesha umwana.",
+  "repeat": [["he", "HI", ""], ["she", "SHI", ""], ["his", "HIZ", ""], ["her", "HER", ""], ["he works", "hi WERKS", ""], ["she works", "shi WERKS", ""]]
+ }
+}

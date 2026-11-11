@@ -1,0 +1,1093 @@
+{
+ "week": 2,
+ "title": {
+  "en": "Days, numbers and the market",
+  "rw": "Iminsi, imibare n'isoko"
+ },
+ "days": [
+  {
+   "id": "w02d1",
+   "week": 2,
+   "day": 1,
+   "title": {
+    "en": "Days of the week",
+    "rw": "Iminsi y'icyumweru"
+   },
+   "sound": "th",
+   "pairs": [
+    {
+     "id": "w02d1-s01",
+     "a": "think",
+     "b": "sink"
+    },
+    {
+     "id": "w02d1-s02",
+     "a": "thank",
+     "b": "tank"
+    },
+    {
+     "id": "w02d1-s03",
+     "a": "three",
+     "b": "tree"
+    },
+    {
+     "id": "w02d1-s04",
+     "a": "thin",
+     "b": "tin"
+    },
+    {
+     "id": "w02d1-s05",
+     "a": "mouth",
+     "b": "mouse"
+    }
+   ],
+   "grammar_rw": null,
+   "items": [
+    {
+     "id": "w02d1-p01",
+     "en": "today",
+     "rw": "uyu munsi",
+     "say": "tu-DEI",
+     "ex": {
+      "en": "Today is Monday.",
+      "rw": "Uyu munsi ni ku wa mbere."
+     }
+    },
+    {
+     "id": "w02d1-p02",
+     "en": "tomorrow",
+     "rw": "ejo (hazaza)",
+     "say": "tu-MA-ro",
+     "ex": {
+      "en": "Tomorrow is Tuesday.",
+      "rw": "Ejo ni ku wa kabiri."
+     }
+    },
+    {
+     "id": "w02d1-p03",
+     "en": "yesterday",
+     "rw": "ejo (hashize)",
+     "say": "YES-ter-dei",
+     "ex": {
+      "en": "Yesterday was Sunday.",
+      "rw": "Ejo hashize hari ku cyumweru."
+     }
+    },
+    {
+     "id": "w02d1-p04",
+     "en": "Monday, Tuesday",
+     "rw": "ku wa mbere, ku wa kabiri",
+     "say": "MAN-dei, TUUZ-dei",
+     "ex": null
+    },
+    {
+     "id": "w02d1-p05",
+     "en": "Wednesday, Thursday",
+     "rw": "ku wa gatatu, ku wa kane",
+     "say": "WENZ-dei, THERZ-dei",
+     "ex": null
+    },
+    {
+     "id": "w02d1-p06",
+     "en": "Friday, Saturday",
+     "rw": "ku wa gatanu, ku wa gatandatu",
+     "say": "FRAI-dei, SA-ter-dei",
+     "ex": null
+    },
+    {
+     "id": "w02d1-p07",
+     "en": "Sunday",
+     "rw": "ku cyumweru",
+     "say": "SAN-dei",
+     "ex": {
+      "en": "The shop is closed on Sunday.",
+      "rw": "Iduka rifunze ku cyumweru."
+     }
+    },
+    {
+     "id": "w02d1-p08",
+     "en": "What day is it today?",
+     "rw": "Uyu munsi ni ku wa kangahe?",
+     "say": "wat DEI iz it tu-DEI",
+     "ex": null,
+     "check": true
+    },
+    {
+     "id": "w02d1-p09",
+     "en": "open / closed",
+     "rw": "rifunguye / rifunze",
+     "say": "O-pan / KLOZD",
+     "ex": {
+      "en": "The shop is open.",
+      "rw": "Iduka rirafunguye."
+     }
+    },
+    {
+     "id": "w02d1-p10",
+     "en": "this week",
+     "rw": "iki cyumweru",
+     "say": "dhis WIIK",
+     "ex": {
+      "en": "I'm busy this week.",
+      "rw": "Mfite akazi kenshi muri iki cyumweru."
+     },
+     "check": true
+    },
+    {
+     "id": "w02d1-p11",
+     "en": "every day",
+     "rw": "buri munsi",
+     "say": "EV-ri DEI",
+     "ex": {
+      "en": "I learn English every day.",
+      "rw": "Niga Icyongereza buri munsi."
+     }
+    }
+   ],
+   "dialogue": [
+    {
+     "id": "w02d1-d01",
+     "who": "Grace",
+     "en": "What day is it today?",
+     "rw": "Uyu munsi ni ku wa kangahe?",
+     "check": true
+    },
+    {
+     "id": "w02d1-d02",
+     "who": "Benia",
+     "en": "Today is Thursday.",
+     "rw": "Uyu munsi ni ku wa kane."
+    },
+    {
+     "id": "w02d1-d03",
+     "who": "Grace",
+     "en": "Is the shop open tomorrow?",
+     "rw": "Ejo iduka rizaba rifunguye?",
+     "check": true
+    },
+    {
+     "id": "w02d1-d04",
+     "who": "Benia",
+     "en": "Yes, the shop is open every day.",
+     "rw": "Yego, iduka rifungura buri munsi."
+    },
+    {
+     "id": "w02d1-d05",
+     "who": "Grace",
+     "en": "On Sunday?",
+     "rw": "No ku cyumweru?"
+    },
+    {
+     "id": "w02d1-d06",
+     "who": "Benia",
+     "en": "No, sorry. The shop is closed on Sunday.",
+     "rw": "Oya, mbabarira. Ku cyumweru iduka rirafunga."
+    },
+    {
+     "id": "w02d1-d07",
+     "who": "Grace",
+     "en": "OK. See you on Saturday!",
+     "rw": "Sawa. Tuzabonana ku wa gatandatu!"
+    }
+   ]
+  },
+  {
+   "id": "w02d2",
+   "week": 2,
+   "day": 2,
+   "title": {
+    "en": "Numbers 11-100 and money",
+    "rw": "Imibare 11-100 n'amafaranga"
+   },
+   "sound": "th",
+   "pairs": [
+    {
+     "id": "w02d2-s01",
+     "a": "thirteen",
+     "b": "thirty"
+    },
+    {
+     "id": "w02d2-s02",
+     "a": "path",
+     "b": "pass"
+    },
+    {
+     "id": "w02d2-s03",
+     "a": "thing",
+     "b": "sing"
+    },
+    {
+     "id": "w02d2-s04",
+     "a": "they",
+     "b": "day"
+    },
+    {
+     "id": "w02d2-s05",
+     "a": "then",
+     "b": "den"
+    }
+   ],
+   "grammar_rw": null,
+   "items": [
+    {
+     "id": "w02d2-p01",
+     "en": "eleven, twelve",
+     "rw": "cumi na rimwe, cumi na kabiri",
+     "say": "i-LE-van, TWELV",
+     "ex": null
+    },
+    {
+     "id": "w02d2-p02",
+     "en": "thirteen, fourteen, fifteen",
+     "rw": "cumi na gatatu, cumi na kane, cumi na gatanu",
+     "say": "ther-TIIN, for-TIIN, fif-TIIN",
+     "ex": null
+    },
+    {
+     "id": "w02d2-p03",
+     "en": "twenty",
+     "rw": "makumyabiri",
+     "say": "TWEN-ti",
+     "ex": null
+    },
+    {
+     "id": "w02d2-p04",
+     "en": "thirty, forty, fifty",
+     "rw": "mirongo itatu, mirongo ine, mirongo itanu",
+     "say": "THER-ti, FOR-ti, FIF-ti",
+     "ex": null
+    },
+    {
+     "id": "w02d2-p05",
+     "en": "sixty, seventy",
+     "rw": "mirongo itandatu, mirongo irindwi",
+     "say": "SIKS-ti, SE-van-ti",
+     "ex": null
+    },
+    {
+     "id": "w02d2-p06",
+     "en": "eighty, ninety",
+     "rw": "mirongo inani, mirongo icyenda",
+     "say": "EI-ti, NAIN-ti",
+     "ex": null
+    },
+    {
+     "id": "w02d2-p07",
+     "en": "one hundred",
+     "rw": "ijana",
+     "say": "wan HAN-drid",
+     "ex": {
+      "en": "It's one hundred francs.",
+      "rw": "Ni amafaranga ijana."
+     }
+    },
+    {
+     "id": "w02d2-p08",
+     "en": "one thousand",
+     "rw": "igihumbi",
+     "say": "wan THAU-zand",
+     "ex": {
+      "en": "It's one thousand francs.",
+      "rw": "Ni amafaranga igihumbi."
+     }
+    },
+    {
+     "id": "w02d2-p09",
+     "en": "How many?",
+     "rw": "Bingahe?",
+     "say": "hau ME-ni",
+     "ex": {
+      "en": "How many do you want?",
+      "rw": "Urashaka bingahe?"
+     }
+    },
+    {
+     "id": "w02d2-p10",
+     "en": "change",
+     "rw": "amafaranga agarurwa",
+     "say": "CEINJ",
+     "ex": {
+      "en": "Here is your change.",
+      "rw": "Dore amafaranga yawe agarurwa."
+     },
+     "check": true
+    }
+   ],
+   "dialogue": [
+    {
+     "id": "w02d2-d01",
+     "who": "Customer",
+     "en": "How much is the soap?",
+     "rw": "Isabune ni angahe?"
+    },
+    {
+     "id": "w02d2-d02",
+     "who": "Benia",
+     "en": "It's eight hundred francs.",
+     "rw": "Ni amafaranga magana inani."
+    },
+    {
+     "id": "w02d2-d03",
+     "who": "Customer",
+     "en": "I want two.",
+     "rw": "Ndashaka ebyiri."
+    },
+    {
+     "id": "w02d2-d04",
+     "who": "Benia",
+     "en": "One thousand six hundred francs, please.",
+     "rw": "Ni amafaranga igihumbi na magana atandatu."
+    },
+    {
+     "id": "w02d2-d05",
+     "who": "Customer",
+     "en": "Here you are. Two thousand.",
+     "rw": "Akira. Ibihumbi bibiri.",
+     "check": true
+    },
+    {
+     "id": "w02d2-d06",
+     "who": "Benia",
+     "en": "Thank you. Here is your change: four hundred francs.",
+     "rw": "Murakoze. Dore amafaranga yawe agarurwa: magana ane.",
+     "check": true
+    }
+   ]
+  },
+  {
+   "id": "w02d3",
+   "week": 2,
+   "day": 3,
+   "title": {
+    "en": "Food at the market",
+    "rw": "Ibiribwa ku isoko"
+   },
+   "sound": "cat-cut",
+   "pairs": [
+    {
+     "id": "w02d3-s01",
+     "a": "cat",
+     "b": "cut"
+    },
+    {
+     "id": "w02d3-s02",
+     "a": "cap",
+     "b": "cup"
+    },
+    {
+     "id": "w02d3-s03",
+     "a": "bag",
+     "b": "bug"
+    },
+    {
+     "id": "w02d3-s04",
+     "a": "ran",
+     "b": "run"
+    },
+    {
+     "id": "w02d3-s05",
+     "a": "match",
+     "b": "much"
+    }
+   ],
+   "grammar_rw": null,
+   "items": [
+    {
+     "id": "w02d3-p01",
+     "en": "rice",
+     "rw": "umuceri",
+     "say": "RAIS",
+     "ex": {
+      "en": "I want rice and beans.",
+      "rw": "Ndashaka umuceri n'ibishyimbo."
+     }
+    },
+    {
+     "id": "w02d3-p02",
+     "en": "beans",
+     "rw": "ibishyimbo",
+     "say": "BIINZ",
+     "ex": null
+    },
+    {
+     "id": "w02d3-p03",
+     "en": "bananas",
+     "rw": "imineke",
+     "say": "ba-NA-naz",
+     "ex": {
+      "en": "I like bananas.",
+      "rw": "Nkunda imineke."
+     }
+    },
+    {
+     "id": "w02d3-p04",
+     "en": "tomatoes",
+     "rw": "inyanya",
+     "say": "ta-MEI-toz",
+     "ex": null
+    },
+    {
+     "id": "w02d3-p05",
+     "en": "potatoes",
+     "rw": "ibirayi",
+     "say": "pa-TEI-toz",
+     "ex": null
+    },
+    {
+     "id": "w02d3-p06",
+     "en": "milk",
+     "rw": "amata",
+     "say": "MILK",
+     "ex": {
+      "en": "I'd like some milk.",
+      "rw": "Ndashaka amata."
+     }
+    },
+    {
+     "id": "w02d3-p07",
+     "en": "bread",
+     "rw": "umugati",
+     "say": "BRED",
+     "ex": null
+    },
+    {
+     "id": "w02d3-p08",
+     "en": "water",
+     "rw": "amazi",
+     "say": "WA-ter",
+     "ex": {
+      "en": "I need water.",
+      "rw": "Nkeneye amazi."
+     }
+    },
+    {
+     "id": "w02d3-p09",
+     "en": "a kilo of ...",
+     "rw": "ikilo cya ...",
+     "say": "a KII-lo av",
+     "ex": {
+      "en": "A kilo of rice, please.",
+      "rw": "Ndashaka ikilo cy'umuceri."
+     }
+    },
+    {
+     "id": "w02d3-p10",
+     "en": "I'd like ...",
+     "rw": "Ndashaka ... (mu kinyabupfura)",
+     "say": "aid LAIK",
+     "ex": {
+      "en": "I'd like some bread.",
+      "rw": "Ndashaka umugati."
+     }
+    },
+    {
+     "id": "w02d3-p11",
+     "en": "Anything else?",
+     "rw": "Hari ikindi?",
+     "say": "E-ni-thing ELS",
+     "ex": null
+    },
+    {
+     "id": "w02d3-p12",
+     "en": "That's all.",
+     "rw": "Ni ibyo gusa.",
+     "say": "dhats OL",
+     "ex": null
+    }
+   ],
+   "dialogue": [
+    {
+     "id": "w02d3-d01",
+     "who": "Benia",
+     "en": "Good morning. Can I help you?",
+     "rw": "Mwaramutse. Nagufasha iki?",
+     "check": true
+    },
+    {
+     "id": "w02d3-d02",
+     "who": "Customer",
+     "en": "Good morning. I'd like a kilo of rice, please.",
+     "rw": "Mwaramutse. Ndashaka ikilo cy'umuceri."
+    },
+    {
+     "id": "w02d3-d03",
+     "who": "Benia",
+     "en": "Here you are. Anything else?",
+     "rw": "Akira. Hari ikindi?",
+     "check": true
+    },
+    {
+     "id": "w02d3-d04",
+     "who": "Customer",
+     "en": "Yes. How much are the tomatoes?",
+     "rw": "Yego. Inyanya ni angahe?"
+    },
+    {
+     "id": "w02d3-d05",
+     "who": "Benia",
+     "en": "Five hundred francs a kilo.",
+     "rw": "Ni amafaranga magana atanu ku kilo."
+    },
+    {
+     "id": "w02d3-d06",
+     "who": "Customer",
+     "en": "OK, a kilo of tomatoes. That's all.",
+     "rw": "Sawa, ikilo cy'inyanya. Ni ibyo gusa."
+    },
+    {
+     "id": "w02d3-d07",
+     "who": "Benia",
+     "en": "Two thousand francs, please. Thank you!",
+     "rw": "Ni amafaranga ibihumbi bibiri. Murakoze!"
+    }
+   ]
+  },
+  {
+   "id": "w02d4",
+   "week": 2,
+   "day": 4,
+   "title": {
+    "en": "This and that",
+    "rw": "Iki na kiriya"
+   },
+   "sound": "th",
+   "pairs": [
+    {
+     "id": "w02d4-s01",
+     "a": "they",
+     "b": "day"
+    },
+    {
+     "id": "w02d4-s02",
+     "a": "then",
+     "b": "den"
+    },
+    {
+     "id": "w02d4-s03",
+     "a": "there",
+     "b": "dare"
+    },
+    {
+     "id": "w02d4-s04",
+     "a": "those",
+     "b": "doze"
+    },
+    {
+     "id": "w02d4-s05",
+     "a": "breathe",
+     "b": "breed"
+    }
+   ],
+   "grammar_rw": "Mu Cyongereza: THIS na THESE ni ibintu biri hafi yawe. THAT na THOSE ni ibiri kure. THIS na THAT ni ikintu kimwe; THESE na THOSE ni ibintu byinshi.",
+   "items": [
+    {
+     "id": "w02d4-p01",
+     "en": "this",
+     "rw": "iki (kiri hafi)",
+     "say": "DHIS",
+     "ex": {
+      "en": "This is my shop.",
+      "rw": "Iri ni iduka ryanjye."
+     }
+    },
+    {
+     "id": "w02d4-p02",
+     "en": "that",
+     "rw": "kiriya (kiri kure)",
+     "say": "DHAT",
+     "ex": {
+      "en": "That is my house.",
+      "rw": "Iriya ni inzu yanjye."
+     }
+    },
+    {
+     "id": "w02d4-p03",
+     "en": "these",
+     "rw": "ibi",
+     "say": "DHIIZ",
+     "ex": {
+      "en": "These are cheap.",
+      "rw": "Ibi birahendutse."
+     }
+    },
+    {
+     "id": "w02d4-p04",
+     "en": "those",
+     "rw": "biriya",
+     "say": "DHOZ",
+     "ex": {
+      "en": "Those are expensive.",
+      "rw": "Biriya birahenze."
+     }
+    },
+    {
+     "id": "w02d4-p05",
+     "en": "here",
+     "rw": "hano",
+     "say": "HIR",
+     "ex": {
+      "en": "Come here.",
+      "rw": "Ngwino hano."
+     }
+    },
+    {
+     "id": "w02d4-p06",
+     "en": "there",
+     "rw": "hariya",
+     "say": "DHER",
+     "ex": {
+      "en": "The market is there.",
+      "rw": "Isoko riri hariya."
+     }
+    },
+    {
+     "id": "w02d4-p07",
+     "en": "What is this?",
+     "rw": "Iki ni iki?",
+     "say": "wat iz DHIS",
+     "ex": null
+    },
+    {
+     "id": "w02d4-p08",
+     "en": "What is that?",
+     "rw": "Kiriya ni iki?",
+     "say": "wat iz DHAT",
+     "ex": null
+    },
+    {
+     "id": "w02d4-p09",
+     "en": "It's a bag.",
+     "rw": "Ni igikapu.",
+     "say": "its a BAG",
+     "ex": null
+    },
+    {
+     "id": "w02d4-p10",
+     "en": "Which one?",
+     "rw": "Ni ikihe?",
+     "say": "wic WAN",
+     "ex": null
+    },
+    {
+     "id": "w02d4-p11",
+     "en": "this one / that one",
+     "rw": "iki / kiriya",
+     "say": "DHIS wan / DHAT wan",
+     "ex": {
+      "en": "I want that one.",
+      "rw": "Ndashaka kiriya."
+     }
+    }
+   ],
+   "dialogue": [
+    {
+     "id": "w02d4-d01",
+     "who": "Customer",
+     "en": "Excuse me, what is that?",
+     "rw": "Imbabazi, kiriya ni iki?",
+     "check": true
+    },
+    {
+     "id": "w02d4-d02",
+     "who": "Benia",
+     "en": "Which one? This one?",
+     "rw": "Ni ikihe? Iki?"
+    },
+    {
+     "id": "w02d4-d03",
+     "who": "Customer",
+     "en": "No, that one, there.",
+     "rw": "Oya, kiriya, hariya."
+    },
+    {
+     "id": "w02d4-d04",
+     "who": "Benia",
+     "en": "It's a bag. It's three thousand francs.",
+     "rw": "Ni igikapu. Ni amafaranga ibihumbi bitatu."
+    },
+    {
+     "id": "w02d4-d05",
+     "who": "Customer",
+     "en": "And these?",
+     "rw": "Naho ibi?"
+    },
+    {
+     "id": "w02d4-d06",
+     "who": "Benia",
+     "en": "These are cheap. One thousand francs.",
+     "rw": "Ibi birahendutse. Ni amafaranga igihumbi."
+    },
+    {
+     "id": "w02d4-d07",
+     "who": "Customer",
+     "en": "OK. I want this one.",
+     "rw": "Sawa. Ndashaka iki."
+    }
+   ]
+  },
+  {
+   "id": "w02d5",
+   "week": 2,
+   "day": 5,
+   "title": {
+    "en": "What time is it?",
+    "rw": "Ni saa ngahe?"
+   },
+   "sound": "cat-cut",
+   "pairs": [
+    {
+     "id": "w02d5-s01",
+     "a": "hat",
+     "b": "hut"
+    },
+    {
+     "id": "w02d5-s02",
+     "a": "cab",
+     "b": "cub"
+    },
+    {
+     "id": "w02d5-s03",
+     "a": "mad",
+     "b": "mud"
+    },
+    {
+     "id": "w02d5-s04",
+     "a": "fan",
+     "b": "fun"
+    },
+    {
+     "id": "w02d5-s05",
+     "a": "sang",
+     "b": "sung"
+    }
+   ],
+   "grammar_rw": "Menya: amasaha y'Icyongereza atandukanye n'ay'Ikinyarwanda ho amasaha atandatu. Saa moya = seven o'clock (7:00). Saa sita = twelve o'clock (12:00). Saa mbiri = eight o'clock (8:00).",
+   "items": [
+    {
+     "id": "w02d5-p01",
+     "en": "What time is it?",
+     "rw": "Ni saa ngahe?",
+     "say": "wat TAIM iz it",
+     "ex": null
+    },
+    {
+     "id": "w02d5-p02",
+     "en": "It's seven o'clock.",
+     "rw": "Ni saa moya.",
+     "say": "its SE-van a-KLAK",
+     "ex": null
+    },
+    {
+     "id": "w02d5-p03",
+     "en": "half past eight",
+     "rw": "saa mbiri n'igice",
+     "say": "haf past EIT",
+     "ex": {
+      "en": "It's half past eight.",
+      "rw": "Ni saa mbiri n'igice."
+     }
+    },
+    {
+     "id": "w02d5-p04",
+     "en": "in the morning",
+     "rw": "mu gitondo",
+     "say": "in dha MOR-ning",
+     "ex": {
+      "en": "I open the shop in the morning.",
+      "rw": "Mfungura iduka mu gitondo."
+     }
+    },
+    {
+     "id": "w02d5-p05",
+     "en": "in the afternoon",
+     "rw": "nyuma ya saa sita",
+     "say": "in dhi af-ter-NUUN",
+     "ex": null
+    },
+    {
+     "id": "w02d5-p06",
+     "en": "in the evening",
+     "rw": "nimugoroba",
+     "say": "in dhi IIV-ning",
+     "ex": {
+      "en": "I close the shop in the evening.",
+      "rw": "Mfunga iduka nimugoroba."
+     }
+    },
+    {
+     "id": "w02d5-p07",
+     "en": "at night",
+     "rw": "nijoro",
+     "say": "at NAIT",
+     "ex": {
+      "en": "I sleep at night.",
+      "rw": "Ndyama nijoro."
+     }
+    },
+    {
+     "id": "w02d5-p08",
+     "en": "now",
+     "rw": "ubu",
+     "say": "NAU",
+     "ex": {
+      "en": "I'm busy now.",
+      "rw": "Ubu mfite akazi kenshi."
+     },
+     "check": true
+    },
+    {
+     "id": "w02d5-p09",
+     "en": "later",
+     "rw": "nyuma",
+     "say": "LEI-ter",
+     "ex": {
+      "en": "See you later.",
+      "rw": "Turi bubonane."
+     },
+     "check": true
+    },
+    {
+     "id": "w02d5-p10",
+     "en": "What time do you open?",
+     "rw": "Mufungura saa ngahe?",
+     "say": "wat TAIM du yu O-pan",
+     "ex": null
+    },
+    {
+     "id": "w02d5-p11",
+     "en": "We open at eight.",
+     "rw": "Dufungura saa mbiri.",
+     "say": "wi O-pan at EIT",
+     "ex": null
+    },
+    {
+     "id": "w02d5-p12",
+     "en": "We close at seven.",
+     "rw": "Dufunga saa moya.",
+     "say": "wi KLOZ at SE-van",
+     "ex": null
+    }
+   ],
+   "dialogue": [
+    {
+     "id": "w02d5-d01",
+     "who": "Customer",
+     "en": "Excuse me, what time is it?",
+     "rw": "Imbabazi, ni saa ngahe?",
+     "check": true
+    },
+    {
+     "id": "w02d5-d02",
+     "who": "Benia",
+     "en": "It's half past eight.",
+     "rw": "Ni saa mbiri n'igice."
+    },
+    {
+     "id": "w02d5-d03",
+     "who": "Customer",
+     "en": "What time do you open tomorrow?",
+     "rw": "Ejo mufungura saa ngahe?"
+    },
+    {
+     "id": "w02d5-d04",
+     "who": "Benia",
+     "en": "We open at eight in the morning.",
+     "rw": "Dufungura saa mbiri za mu gitondo."
+    },
+    {
+     "id": "w02d5-d05",
+     "who": "Customer",
+     "en": "And what time do you close?",
+     "rw": "Mufunga saa ngahe?"
+    },
+    {
+     "id": "w02d5-d06",
+     "who": "Benia",
+     "en": "We close at seven in the evening.",
+     "rw": "Dufunga saa moya z'umugoroba."
+    },
+    {
+     "id": "w02d5-d07",
+     "who": "Customer",
+     "en": "Thank you. See you later!",
+     "rw": "Murakoze. Turi bubonane!",
+     "check": true
+    }
+   ]
+  },
+  {
+   "id": "w02d6",
+   "week": 2,
+   "day": 6,
+   "title": {
+    "en": "I like ...",
+    "rw": "Nkunda ..."
+   },
+   "sound": "cat-cut",
+   "pairs": [
+    {
+     "id": "w02d6-s01",
+     "a": "bat",
+     "b": "but"
+    },
+    {
+     "id": "w02d6-s02",
+     "a": "track",
+     "b": "truck"
+    },
+    {
+     "id": "w02d6-s03",
+     "a": "ankle",
+     "b": "uncle"
+    },
+    {
+     "id": "w02d6-s04",
+     "a": "thank",
+     "b": "tank"
+    },
+    {
+     "id": "w02d6-s05",
+     "a": "three",
+     "b": "free"
+    }
+   ],
+   "grammar_rw": null,
+   "items": [
+    {
+     "id": "w02d6-p01",
+     "en": "I like ...",
+     "rw": "Nkunda ...",
+     "say": "ai LAIK",
+     "ex": {
+      "en": "I like tea.",
+      "rw": "Nkunda icyayi."
+     }
+    },
+    {
+     "id": "w02d6-p02",
+     "en": "I don't like ...",
+     "rw": "Sinkunda ...",
+     "say": "ai dont LAIK",
+     "ex": {
+      "en": "I don't like coffee.",
+      "rw": "Sinkunda ikawa."
+     }
+    },
+    {
+     "id": "w02d6-p03",
+     "en": "Do you like ...?",
+     "rw": "Ukunda ...?",
+     "say": "du yu LAIK",
+     "ex": {
+      "en": "Do you like music?",
+      "rw": "Ukunda umuziki?"
+     }
+    },
+    {
+     "id": "w02d6-p04",
+     "en": "Yes, I do.",
+     "rw": "Yego, ndabikunda.",
+     "say": "yes, ai DUU",
+     "ex": null
+    },
+    {
+     "id": "w02d6-p05",
+     "en": "No, I don't.",
+     "rw": "Oya, simbikunda.",
+     "say": "no, ai DONT",
+     "ex": null
+    },
+    {
+     "id": "w02d6-p06",
+     "en": "very much",
+     "rw": "cyane",
+     "say": "VE-ri MAC",
+     "ex": {
+      "en": "I like it very much.",
+      "rw": "Ndabikunda cyane."
+     }
+    },
+    {
+     "id": "w02d6-p07",
+     "en": "tea / coffee",
+     "rw": "icyayi / ikawa",
+     "say": "TII / KA-fi",
+     "ex": {
+      "en": "I like tea in the morning.",
+      "rw": "Nkunda icyayi mu gitondo."
+     }
+    },
+    {
+     "id": "w02d6-p08",
+     "en": "music",
+     "rw": "umuziki",
+     "say": "MYUU-zik",
+     "ex": {
+      "en": "I like music very much.",
+      "rw": "Nkunda umuziki cyane."
+     }
+    },
+    {
+     "id": "w02d6-p09",
+     "en": "I love my family.",
+     "rw": "Nkunda umuryango wanjye cyane.",
+     "say": "ai LAV mai FAM-li",
+     "ex": null
+    },
+    {
+     "id": "w02d6-p10",
+     "en": "What do you like?",
+     "rw": "Ukunda iki?",
+     "say": "wat du yu LAIK",
+     "ex": null
+    },
+    {
+     "id": "w02d6-p11",
+     "en": "Me too.",
+     "rw": "Nanjye.",
+     "say": "mi TUU",
+     "ex": null
+    }
+   ],
+   "dialogue": [
+    {
+     "id": "w02d6-d01",
+     "who": "Grace",
+     "en": "Do you like tea, Benia?",
+     "rw": "Ukunda icyayi, Benia?"
+    },
+    {
+     "id": "w02d6-d02",
+     "who": "Benia",
+     "en": "Yes, I do. I like tea very much.",
+     "rw": "Yego, ndagikunda. Nkunda icyayi cyane."
+    },
+    {
+     "id": "w02d6-d03",
+     "who": "Grace",
+     "en": "Me too. Do you like coffee?",
+     "rw": "Nanjye. Ukunda ikawa?"
+    },
+    {
+     "id": "w02d6-d04",
+     "who": "Benia",
+     "en": "No, I don't. And you?",
+     "rw": "Oya, sinyikunda. Nawe se?",
+     "check": true
+    },
+    {
+     "id": "w02d6-d05",
+     "who": "Grace",
+     "en": "I like coffee in the morning. What do you like?",
+     "rw": "Nkunda ikawa mu gitondo. Ukunda iki?"
+    },
+    {
+     "id": "w02d6-d06",
+     "who": "Benia",
+     "en": "I like music. And I love my family.",
+     "rw": "Nkunda umuziki. Kandi nkunda umuryango wanjye cyane."
+    }
+   ]
+  }
+ ]
+}
